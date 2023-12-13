@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> <button id="backBtn" onclick="goBack()">Назад</button>
+        <button id="forwardBtn" onclick="goForward()">Вперед</button>
+
+
+        <section class="linkstr">
+            <ul>
+                <li><a href="index.html"><button>Страница 1</button></a></li>
+                <li><a href="index1.html"><button>Страница 2</button></a></li>
+                <li><a href="index2.html"><button>Страница 3</button></a></li>
+            </ul>
+        </section>
+    </header>
+    <arcticle><h1>Страница 2 с вычислениями по средствам WebWorkers</h1></arcticle>
+
+
+    <div id="result"></div>
+    <button id="changeButton">Изменить операцию</button>
+
+
+    <script src="script.js"></script>
+    <script src="worker.js"></script>
+</body>
+</html>
